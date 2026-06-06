@@ -197,3 +197,11 @@ After the installation was completed, a notification appeared in Server Manager 
 
 <br>
 <br>
+
+From Server Manager, select **“Promote this server to a domain controller.”** In the Deployment Configuration screen, choose **“Add a new forest”** and enter **“mydomain.com”** as the root domain name (the forest name can be customized as needed). Click **Next**, then in the Domain Controller Options, create and confirm the **DSRM password**. Proceed by clicking **Next**, and ensure the **DNS Delegation** option is unchecked. Continue selecting **Next** through the remaining steps, then click **Install**. The virtual machine will complete the forest installation and automatically restart/sign out.
+
+<img width="976" height="831" alt="Screenshot 2026-04-10 222650" src="https://github.com/user-attachments/assets/d525d850-239e-4c30-819f-1ed6e60d2473" />
+<img width="757" height="550" alt="Screenshot 2026-04-10 222922" src="https://github.com/user-attachments/assets/a5f7619f-c852-4bfd-ae6d-a7bb8aaae936" />
+
+<br>
+<br>

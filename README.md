@@ -191,3 +191,9 @@ After the installation was completed, a notification appeared in Server Manager 
 
 <br>
 <br>
+
+
+<img width="1344" height="772" alt="Screenshot 2026-04-10 222525" src="https://github.com/user-attachments/assets/08a4a1e5-18ab-40ee-a1fc-75a7c1f0e9db" />
+
+<br>
+<br>

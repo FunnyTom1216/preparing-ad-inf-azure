@@ -157,3 +157,10 @@ To apply the updated DNS settings, I restarted Client-1 directly from the Azure 
 <br>
 
 ***Validate Connectivity and Configuration***
+
+To validate connectivity to **DC-1**, I used **Remote Desktop** on my local computer to connect to the **Client-1** VM using its public IP address (52.186.171.6) using the credentials created during deployment. After successfully logging in, I opened **PowerShell** and ran `ping` to the Domain Controller’s private IP address (**10.0.0.4**) to confirm network connectivity. Finally, I executed `ipconfig /all` to verify that the **DNS server** is set to the private IP address of **DC-1**.
+
+**Successful replies confirm:**
+  * Network connectivity is functioning properly
+  * The firewall is not blocking ICMP traffic
+  * Both **DC-1** and **Client-1** VMs are on the same Virtual Network and subnet

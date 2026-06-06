@@ -177,3 +177,12 @@ To install Active Directory on the domain controller, I returned to the **DC-1**
 
 <br>
 <br>
+
+I proceeded through the Features and AD DS informational pages by selecting **Next**. On the Confirmation screen, I enabled “Restart the destination server automatically if required” to ensure a smooth installation process, then clicked **Install** to begin deploying Active Directory Domain Services.
+
+<img width="1128" height="614" alt="Screenshot 2026-04-10 222133" src="https://github.com/user-attachments/assets/d34df9cf-4a64-4e69-ab47-e1825b758c40" />
+
+<br>
+<br>
+
+After the installation was completed, a notification appeared in Server Manager indicating that additional configuration was required. I selected **“Promote this server to a domain controller”** to begin setting up Active Directory and converting the server into a Domain Controller.

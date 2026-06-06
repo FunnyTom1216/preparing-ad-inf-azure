@@ -149,3 +149,11 @@ In the network interface settings, I opened **DNS servers**, switched the option
 <br>
 
 To apply the updated DNS settings, I restarted Client-1 directly from the Azure Portal. After the reboot, the machine was successfully configured to use DC-1 for DNS resolution and was ready for domain connectivity.
+
+<img width="1378" height="563" alt="577113588-d43307e5-ff2a-46b6-b26e-a91094ff8c1f" src="https://github.com/user-attachments/assets/18727a7a-eb54-4347-8d60-1151e5053886" />
+
+<br>
+<br>
+<br>
+
+***Validate Connectivity and Configuration***

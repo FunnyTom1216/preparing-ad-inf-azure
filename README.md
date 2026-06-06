@@ -58,3 +58,12 @@ In the Azure portal, I initiated virtual machine creation by searching for “Vi
 <br>
 <br>
 <br>
+
+During Virtual machine creation, I navigated to the **Networking** tab for the virtual network. I selected the previously created VNet "vnet-active-directory-lab", assigned a public IP address, and selected 'default' for Subnet. Once the networking settings were configured, select "Review + Create," then "Create". 
+
+<img width="848" height="1302" alt="Screenshot 2026-04-10 211624" src="https://github.com/user-attachments/assets/b2943ae0-13d7-4d14-ab5f-7b23da956bd0" />
+
+
+<br>
+<br>
+<br>

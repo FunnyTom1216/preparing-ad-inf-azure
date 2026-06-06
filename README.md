@@ -35,3 +35,8 @@ Created a resource group to organize and manage all Azure resources for the Acti
  <img width="1119" height="709" alt="577009206-5785d2fe-6cd6-4c2a-bdec-b9283fe8d78b" src="https://github.com/user-attachments/assets/186b419b-02a6-4b5f-b4c1-2c7f64a73fa1" />
 <img width="813" height="703" alt="Screenshot 2026-04-10 211121" src="https://github.com/user-attachments/assets/1cbbe209-dfdd-499a-bb5a-bcf041ad6306" />
 
+<br>
+<br>
+<br>
+
+***CREATE VIRTUAL NETWORK.***

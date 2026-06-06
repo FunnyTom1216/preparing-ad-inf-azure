@@ -167,3 +167,8 @@ To validate connectivity to **DC-1**, I used **Remote Desktop** on my local comp
   * Network connectivity is functioning properly
   * The firewall is not blocking ICMP traffic
   * Both **DC-1** and **Client-1** VMs are on the same Virtual Network and subnet
+
+**3. Install Active Directory**
+---
+
+To install Active Directory on the domain controller, I returned to the **DC-1** VM and navigated to the **Server Manager** dashboard. Proceed by selecting option 2, **Add roles and features**, then select **Next** until you reach **Server Roles**. In Server roles, select **Active Directory Domain Services (AD DS)** under **Server Roles**. Upon selection, I was prompted to add the required features, including Group Policy Management and Remote Server Administration Tools. I clicked **Add Features** and ensured that management tools were included to enable full administrative functionality. 

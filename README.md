@@ -88,3 +88,24 @@ Configuring the Domain Controller with a static private IP ensures consistent an
 <br>
 <br>
 
+***DISABLE FIREWALL ON DC-1 VM (Temporary for Testing)***
+
+On my local computer, I used Remote Desktop to connect to DC-1 VM using its public IP address (20.83.153.138). To connect, I entered the correct credentials created when the VM was created.   
+
+<img width="1381" height="613" alt="Screenshot 2026-04-10 213001" src="https://github.com/user-attachments/assets/25ad1938-1ef6-4450-ab8c-85e5e596b9bc" />
+
+<br>
+<br>
+<br>
+
+Next, I selected **Yes** to proceed, which initiated the Domain Controller’s boot process. Once the system was fully up and running, I opened **Windows Defender Firewall with Advanced Security** and accessed **Windows Defender Firewall Properties**. From there, I disabled the firewall by setting the Firewall State to **Off** for the Domain, Public, and Private profiles, then clicked **Apply** to save the changes.
+
+**Reason:**
+
+The firewall is temporarily disabled to allow connectivity testing between virtual machines, permitting `ICMP` ping traffic. DC-1 has been successfully deployed, connected to the correct Virtual Network and subnet, and is now ready for further Active Directory configuration and role installation.
+
+> [!NOTE]
+> ***In a production environment, firewall rules would be properly configured rather than disabled.***
+
+<img width="911" height="736" alt="Screenshot 2026-04-10 213841" src="https://github.com/user-attachments/assets/22168902-e12c-4377-a31f-c8973e2f4082" />
+

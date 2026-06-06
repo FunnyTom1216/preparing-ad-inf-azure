@@ -116,3 +116,25 @@ The firewall is temporarily disabled to allow connectivity testing between virtu
 In the Azure portal, I initiated virtual machine creation by searching for “Virtual Machine” in the search bar and selecting **+ Create**. I chose the **rg-active-directory-lab** resource group, named the VM **Client-1**, and configured the administrator username and password under the Admin Account section. I set the region to **(US) East US** with **Availability Zone 3**, selected the **Windows 10 Enterprise 22H2 (x64 Gen2)** image with x64 architecture, and used the **Standard D2s_v3 (2 vCPUs, 8 GiB RAM)** size. 
 
 In the **Networking** tab, I selected the previously created virtual network (**rg-active-directory-lab**) and kept the subnet as default. After completing the configuration, I clicked **Review + Create**, then selected **Create** to deploy the virtual machine.
+
+<img width="883" height="1299" alt="Screenshot 2026-04-10 214235" src="https://github.com/user-attachments/assets/51f34805-3fdc-40fc-b8ad-197999d63147" />
+
+<br>
+<br>
+<br>
+
+***CLIENT VM CONFIGURATION***
+
+After deployment, I navigated to the **Virtual Machines** list, selected the **DC-1** VM, and opened **Network Settings** from the left-hand pane. From there, I located and recorded the private IP address (10.0.0.4) for later use.
+
+
+<img width="1489" height="590" alt="577113397-eb908055-194b-47b4-9faf-01a52125f2fe" src="https://github.com/user-attachments/assets/8da620c0-6a85-4236-99cd-163a39e9e1ee" />
+
+<br>
+<br>
+<br>
+
+Next, I returned to the Virtual Machines list and selected **Client-1**. From the left-hand pane, I navigated to **Network > Network Settings**, then selected the **Network Interface** under **Essentials**.
+
+<img width="1483" height="664" alt="577113444-9b1298b3-b45c-4f6f-b932-6e83bee43f2b" src="https://github.com/user-attachments/assets/69c7fafe-a23e-48a8-8a66-89a384ba5ade" />
+

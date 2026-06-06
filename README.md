@@ -138,3 +138,14 @@ Next, I returned to the Virtual Machines list and selected **Client-1**. From th
 
 <img width="1483" height="664" alt="577113444-9b1298b3-b45c-4f6f-b932-6e83bee43f2b" src="https://github.com/user-attachments/assets/69c7fafe-a23e-48a8-8a66-89a384ba5ade" />
 
+<br>
+<br>
+
+In the network interface settings, I opened **DNS servers**, switched the option to **Custom**, and entered the **DC-1 private IP address**. Finally, I clicked **Save** to apply the configuration.
+
+<img width="837" height="633" alt="Screenshot 2026-04-10 215627" src="https://github.com/user-attachments/assets/e7b641fb-9423-4065-b646-05f315fe52b3" />
+
+<br>
+<br>
+
+To apply the updated DNS settings, I restarted Client-1 directly from the Azure Portal. After the reboot, the machine was successfully configured to use DC-1 for DNS resolution and was ready for domain connectivity.

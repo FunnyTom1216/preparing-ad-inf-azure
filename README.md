@@ -212,3 +212,13 @@ The **DC-1** VM will restart. Before remotely logging back in, in **Remote Deskt
 
 <br>
 <br>
+
+After logging back into the Domain Controller, I reviewed the Server Manager Dashboard to confirm that both Active Directory Domain Services (AD DS) and DNS roles were successfully installed and are running properly.
+
+<img width="1533" height="796" alt="Screenshot 2026-04-10 224314" src="https://github.com/user-attachments/assets/8f5f2ab4-a96f-4d38-bbc7-fdedcd148788" />
+
+
+<h2>Purpose</h2>
+
+The purpose of this repository is to document and demonstrate the process of preparing an Active Directory infrastructure within Microsoft Azure. It provides a structured reference for building a cloud-based environment that simulates a traditional on-premises Active Directory setup.
+This project outlines the key steps for configuring virtual machines, networking, DNS settings, and domain services to establish a functional Active Directory environment. It is intended to support learning, testing, and experimentation with identity and infrastructure management in a cloud environment.

@@ -205,3 +205,10 @@ From Server Manager, select **“Promote this server to a domain controller.”*
 
 <br>
 <br>
+
+The **DC-1** VM will restart. Before remotely logging back in, in **Remote Desktop Client**, select **More options**. Under the username field, I specified the domain user in the format `mydomain.com\<yourcreatedcredentials>`, then selected **Connect**. I was prompted to enter the credentials, allowing me to log into the domain-joined machine successfully.
+
+<img width="401" height="475" alt="Screenshot 2026-04-10 223859" src="https://github.com/user-attachments/assets/dabceacb-1e48-47ca-9f5f-378900dd0ab5" />
+
+<br>
+<br>
